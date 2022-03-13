@@ -43,7 +43,7 @@ class Parser:
     def load(self, path="./data/matrix.pkl"):
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "rb") as f:
-            self.docs, self.matrix = pickle.load(path)
+            self.docs, self.matrix = pickle.load(f)
 
 
 class EnBertEmb(Parser):
