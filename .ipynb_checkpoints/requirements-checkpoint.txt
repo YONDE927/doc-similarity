@@ -1,0 +1,12 @@
+tqdm
+numpy
+pandas
+torch
+scikit-learn
+transformers["ja"]
+sentence-transformers
+
+mecab-python3
+fugashi
+ipadic
+
